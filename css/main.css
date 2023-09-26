@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+/* PC */
+@media (min-width: 1024px) {
+    .banner img {
+        height: 70vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+
+    .production-title {
+        margin-top: 20px;
+    }
+
+    .production-title .title {
+        display: flex;
+        align-items: center;
+    }
+
+    .bar {
+        background-color: gray;
+        height: 1px;
+    }
+
+    .production-title p {}
+}
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    footer {
+        flex-direction: column;
+    }
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-grow: 3;
+    gap: 0px;
+    margin: 30px;
+}
+
+.product-list div {
+    margin-bottom: 20px;
+
+}

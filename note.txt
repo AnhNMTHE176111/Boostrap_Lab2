@@ -1,0 +1,31 @@
+.col-* : màn hình điện thoại cho chế độ dọc
+.col-sm-* : màn hình điện thoại cho chế độ ngang
+.col-md-* : màn hình tablet
+.col-lg-* : màn hình labtop, PC
+.col-xl-* : màn hình cực lớn
+
+
+1. Mobile
+width < 740px
+=> css
+@media (max-width: 739px) {
+    .mobile {
+        ...
+    }
+}
+
+2. Tablet
+740px <= width < 1024px
+@media (max-width: 1023px) and (min-width: 740px) {
+    .tablet {
+        ...
+    }
+}
+
+3. PC
+width >= 1024px
+@media (min-width: 1024px) {
+    .pc {
+        ...
+    }
+}
