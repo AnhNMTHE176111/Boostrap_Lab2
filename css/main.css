@@ -141,6 +141,15 @@ p[class="title"] {
 
 }
 
+.nav-item a {
+    color: #c5c5c5;
+    font-size: 18px;
+}
+
+.nav-item a:hover {
+    color: #fff;
+}
+
 /* Mobile */
 @media (max-width: 739px) {
 
