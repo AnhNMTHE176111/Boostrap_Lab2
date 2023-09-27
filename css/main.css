@@ -261,3 +261,23 @@ p[class="title"] {
 .nav-item:hover::after {
     width: 100%;
 }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px dashed gray;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.card-price {
+    font-weight: bolder;
+}
+
+.card {
+    box-shadow: 1px 0px 1px 1px rgb(207, 207, 207);
+}
